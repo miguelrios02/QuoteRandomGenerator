@@ -28,11 +28,7 @@ body {
   max-width: 90%;
 }
 
-@media (min-width:900px){
-.quoteBox{
-  max-width: 800px;
-}
-}
+
 
 .quoteBox-footer{
   display: flex;
@@ -52,3 +48,9 @@ body {
 .quoteBox-footer > i{
   font-size: 2.5rem;
 }
+
+@media (min-width:900px){
+  .quoteBox{
+    max-width: 800px;
+  }
+  }

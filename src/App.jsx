@@ -26,7 +26,7 @@ function App() {
 
   }
   const colorObjet ={
-     color:color
+     color : color
   }
   console.log(quote)
   return (
@@ -35,7 +35,7 @@ function App() {
       quote={quote}
       getNewValues={getNewValues}
       backgroundObject={backgroundObject}
-      colorObjet={colorObjet}
+      colorObject={colorObjet}
       />
     </div>
   )
